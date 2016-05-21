@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+        <!-- inherit from the material theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">#00796B</item>
+        <item name="android:colorPrimaryDark">#009688</item>
+        <item name="android:colorAccent">#80CBC4</item>
+    </style>
+
+    <style name="Headers" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-heavy</item>
+    </style>
+
+</resources>
